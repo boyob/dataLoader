@@ -23,5 +23,5 @@ class AugmentBase(ABC):
         pass
 
     @staticmethod
-    def _rand(a=0.0, b=1.0):  # 左开右闭
+    def _rand(a=0.0, b=1.0):  # 左闭右开
         return np.random.random() * (b - a) + a
